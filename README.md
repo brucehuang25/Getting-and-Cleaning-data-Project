@@ -1,9 +1,9 @@
 # Getting-and-Cleaning-data-Project
 
-#Considering we have in local our test and train dataset
-#The first thing is to store those tables into variables
+Considering we have in local our test and train dataset
+The first thing is to store those tables into variables
 
-#Loading activity datasets
+Loading activity datasets
 testActivity  <- read.table("UCI HAR Dataset/test/Y_test.txt" , header = FALSE)
 trainActivity <- read.table("UCI HAR Dataset/train/Y_train.txt", header = FALSE)
 
