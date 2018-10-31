@@ -3,14 +3,17 @@
 Considering we have in local our test and train dataset
 The first thing is to store those tables into variables
 
-Loading activity datasets
+### Loading activity datasets
+``` R
 testActivity  <- read.table("UCI HAR Dataset/test/Y_test.txt" , header = FALSE)
 trainActivity <- read.table("UCI HAR Dataset/train/Y_train.txt", header = FALSE)
+```
 
-
-#Loading subject datasets 
+### Loading subject datasets 
+``` R
 testSubject  <- read.table("UCI HAR Dataset/test/subject_test.txt", header = FALSE)
 trainSubject <- read.table("UCI HAR Dataset/train/subject_train.txt", header = FALSE)
+```
 
 #Loading features datasets 
 testFeatures  <- read.table("UCI HAR Dataset/test/X_test.txt", header = FALSE)
