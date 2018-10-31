@@ -1,4 +1,4 @@
-# Getting-and-Cleaning-data-Project
+# Getting and Cleaning Data- Final Project
 
 Considering we have in local our test and train dataset
 The first thing is to store those tables into variables
