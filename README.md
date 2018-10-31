@@ -4,6 +4,7 @@
 
 ### Download and unzip the dataset:
 
+```R
 filename <- "getdata_dataset.zip"
 
 if (!file.exists(filename)){
@@ -13,8 +14,7 @@ if (!file.exists(filename)){
 if (!file.exists("UCI HAR Dataset")) { 
   unzip(filename) 
 }
-Considering we have in local our test and train dataset
-The first thing is to store those tables into variables
+```
 
 ## 2 - Apply the corresponding transformations to get a tidy dataset
 
