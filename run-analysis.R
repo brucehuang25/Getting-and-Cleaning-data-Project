@@ -18,7 +18,6 @@ if (!file.exists("UCI HAR Dataset")) {
 testActivity  <- read.table("UCI HAR Dataset/test/Y_test.txt" , header = FALSE)
 trainActivity <- read.table("UCI HAR Dataset/train/Y_train.txt", header = FALSE)
 
-
 #Loading subject datasets 
 testSubject  <- read.table("UCI HAR Dataset/test/subject_test.txt", header = FALSE)
 trainSubject <- read.table("UCI HAR Dataset/train/subject_train.txt", header = FALSE)
