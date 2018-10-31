@@ -1,7 +1,8 @@
 # Getting and Cleaning Data- Final Project
 
-## 1 - Downdloading the raw dataset from the provided link (scrip downloadingdataset.R)
+## 1 - Downdloading the raw dataset from the provided link 
 
+[downloadingdataset.R](https://github.com/ignacio-alorre/Getting-and-Cleaning-data-Project/blob/master/downloadingdataset.R)
 ### Download and unzip the dataset:
 
 ```R
@@ -16,7 +17,9 @@ if (!file.exists("UCI HAR Dataset")) {
 }
 ```
 
-## 2 - Apply the corresponding transformations to get a tidy dataset (script run-analysis.R)
+## 2 - Apply the corresponding transformations to get a tidy dataset (script )
+
+[run-analysis.R](https://github.com/ignacio-alorre/Getting-and-Cleaning-data-Project/blob/master/run-analysis.R)
 
 ### Loading activity datasets
 ``` R
