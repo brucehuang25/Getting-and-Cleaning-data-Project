@@ -89,5 +89,5 @@ cleandata <- cleandata[1:68]
 ```
 ### Writing our tidy data set into a text file
 ``` R
-write.table(cleandata, file = "cleandata.txt", row.name = FALSE)
+write.table(cleandata, file = "tidydataset.txt", row.name = FALSE)
 ```
